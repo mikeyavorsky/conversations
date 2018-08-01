@@ -10,7 +10,7 @@ TODO does https://medium.com/surabayadev/setting-up-react-native-android-without
    1. Install [Android Studio](https://developer.android.com/studio/install.html)
    1. create an `ANDROID_HOME` environment variable, pointing at your Android SDK directory (`~/Library/Android/sdk` on a Mac, most likely)
    1. Within Adroid Studio, `Open an existing Android Studio project` and select the `android` directory within this repository
-   1. Create a [virtual device](https://developer.android.com/studio/run/managing-avds.html)
+   1. Create a [virtual device] using the Nexus 5X device template and Android 7.0 (Google APIs) (https://developer.android.com/studio/run/managing-avds.html)
    1. You must launch the device in the Android emulator in order to run the application
 1. Create a [YouTube API key](https://console.developers.google.com/apis/credentials) for local development (see the [Getting Started](https://developers.google.com/youtube/v3/getting-started) guide for more information)
 1. create a `YOUTUBE_API_KEY` environment variable equal to your API key
